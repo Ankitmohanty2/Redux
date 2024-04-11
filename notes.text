@@ -1,0 +1,4 @@
+1: So redux is state management system for react. It is a predictable state container for JavaScript apps. It helps you write applications that behave consistently, run in different environments (client, server, and native), and are easy to test. It is a library that helps you manage the state of your application. It is often used with React, but it can be used with other libraries or frameworks as well.
+
+Q2: What is the difference between React and Redux?
+-> The main difference between React and Redux is that React is a library for building user interfaces, while Redux is a library for managing application state. React is used to build the user interface of an application, while Redux is used to manage the state of the application.
