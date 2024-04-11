@@ -6,3 +6,13 @@ Q2: What is the difference between React and Redux?
 q3: functionalities of redux
 -> Redux provides a way to manage the state of your application in a predictable and consistent way. It allows you to store the state of your application in a single object called the store, and provides a set of functions to update the state of the application. Redux also provides a way to subscribe to changes in the state of the application, so that you can update the user interface when the state changes.
 
+Q4: what dispatch function does in redux?
+-> The dispatch function is used to dispatch an action to the Redux store. An action is an object that describes what should happen in the application. When you call the dispatch function with an action object, Redux will call the reducer function with the current state of the application and the action object, and update the state of the application based on the result of the reducer function.
+
+Q5: reducer in redux
+-> A reducer is a function that takes the current state of the application and an action object, and returns the new state of the application. Reducers are used to update the state of the application in response to actions. Reducers are pure functions, which means that they do not have side effects and always return the same result for the same input.
+
+Q6: what is store in redux
+-> The store is an object that holds the state of the application. It is created using the createStore function from the Redux library. The store is responsible for managing the state of the application, and provides a set of functions to update the state of the application, subscribe to changes in the state, and get the current state of the application.
+
+-> Dispatch Reducers use karke store update karta hai and store se data get karne ke liye getState() function use hota hai.
