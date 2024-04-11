@@ -1,22 +1,21 @@
 import React, {useState} from "react";
 import { useDispatch } from "react-redux";
+import { addTodo } from "../features/todo/todoSlice";
 
 
+// its used for adding todos
 const [input, setInput] = useState("")
+// dispatch is used to dispatch actions to the store
 const dispatch = useDispatch()
 
-
+// addTodoHandler is used to add a todo
 const addTodoHandler = (e) => {
   e.preventDefault()
-  if (input) {
-    dispatch({
-      type: "todos/addTodo",
-      payload: input,
-    })
-    setInput("")
-  }
+  dispatch(addTodo(input))
+  setInput("")
 }
 
+// AddTodos is a functional component that returns a form with an input field and a button
 function AddTodos() {
     return (
         <form onSubmit={addTodoHandler} className="space-x-3 mt-12">
