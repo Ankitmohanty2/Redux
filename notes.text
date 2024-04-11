@@ -2,3 +2,7 @@
 
 Q2: What is the difference between React and Redux?
 -> The main difference between React and Redux is that React is a library for building user interfaces, while Redux is a library for managing application state. React is used to build the user interface of an application, while Redux is used to manage the state of the application.
+
+q3: functionalities of redux
+-> Redux provides a way to manage the state of your application in a predictable and consistent way. It allows you to store the state of your application in a single object called the store, and provides a set of functions to update the state of the application. Redux also provides a way to subscribe to changes in the state of the application, so that you can update the user interface when the state changes.
+
