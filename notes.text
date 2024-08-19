@@ -1,18 +1,65 @@
-1: So redux is state management system for react. It is a predictable state container for JavaScript apps. It helps you write applications that behave consistently, run in different environments (client, server, and native), and are easy to test. It is a library that helps you manage the state of your application. It is often used with React, but it can be used with other libraries or frameworks as well.
+What is Redux?
+-> Redux is a state management library for JavaScript apps, often used with React.
 
-Q2: What is the difference between React and Redux?
--> The main difference between React and Redux is that React is a library for building user interfaces, while Redux is a library for managing application state. React is used to build the user interface of an application, while Redux is used to manage the state of the application.
+Difference between React and Redux?
+-> React is for building user interfaces, while Redux manages application state.
 
-q3: functionalities of redux
--> Redux provides a way to manage the state of your application in a predictable and consistent way. It allows you to store the state of your application in a single object called the store, and provides a set of functions to update the state of the application. Redux also provides a way to subscribe to changes in the state of the application, so that you can update the user interface when the state changes.
+What does Redux store?
+-> Redux stores the state of the entire application in a single object called the store.
 
-Q4: what dispatch function does in redux?
--> The dispatch function is used to dispatch an action to the Redux store. An action is an object that describes what should happen in the application. When you call the dispatch function with an action object, Redux will call the reducer function with the current state of the application and the action object, and update the state of the application based on the result of the reducer function.
+What are actions in Redux?
+-> Actions are objects that describe events that happened in the application.
 
-Q5: reducer in redux
--> A reducer is a function that takes the current state of the application and an action object, and returns the new state of the application. Reducers are used to update the state of the application in response to actions. Reducers are pure functions, which means that they do not have side effects and always return the same result for the same input.
+What is a reducer in Redux?
+-> A reducer is a pure function that takes the current state and an action, then returns the new state.
 
-Q6: what is store in redux
--> The store is an object that holds the state of the application. It is created using the createStore function from the Redux library. The store is responsible for managing the state of the application, and provides a set of functions to update the state of the application, subscribe to changes in the state, and get the current state of the application.
+What is the store in Redux?
+-> The store is an object that holds the application's state and allows access to it via functions like getState().
 
--> Dispatch Reducers use karke store update karta hai and store se data get karne ke liye getState() function use hota hai.
+What is the dispatch function in Redux?
+-> Dispatch sends actions to the Redux store, triggering the reducer to update the state.
+
+What is the role of getState() in Redux?
+-> getState() retrieves the current state from the Redux store.
+
+What are middleware in Redux?
+-> Middleware allows you to extend Redux with custom logic, like handling asynchronous actions.
+
+What is combineReducers in Redux?
+-> combineReducers merges multiple reducers into a single reducer function.
+
+What is Redux Thunk?
+-> Redux Thunk is middleware that lets you write action creators that return functions instead of actions.
+
+What are selectors in Redux?
+-> Selectors are functions that extract and compute derived data from the Redux store.
+
+What is the Provider component in Redux?
+-> Provider makes the Redux store available to all components in the app.
+
+What is mapStateToProps in Redux?
+-> `mapStateToProps` connects a component to specific parts of the Redux store's state.
+
+What is mapDispatchToProps in Redux?
+-> `mapDispatchToProps` connects a component to the Redux store's dispatch function.
+
+What are Redux DevTools?
+-> Redux DevTools help you inspect every action and state change in your application.
+
+Why is immutable state important in Redux?
+-> Immutable state ensures that state changes are predictable and easy to track.
+
+What is the connect function in Redux?
+-> `connect` is a function that links React components to the Redux store.
+
+What does Redux Toolkit do?
+-> Redux Toolkit simplifies the setup of Redux with pre-configured tools and best practices.
+
+How does Redux handle side effects?
+-> Redux handles side effects using middleware like Redux Thunk or Redux Saga.
+
+
+
+
+
+
