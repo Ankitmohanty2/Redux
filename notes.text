@@ -14,19 +14,19 @@ What is a reducer in Redux?
 -> A reducer is a pure function that takes the current state and an action, then returns the new state.
 
 What is the store in Redux?
--> The store is an object that holds the application's state and allows access to it via functions like getState().
+-> The store is an object that holds the application's state and allows access to it via functions like `getState()`.
 
 What is the dispatch function in Redux?
 -> Dispatch sends actions to the Redux store, triggering the reducer to update the state.
 
 What is the role of getState() in Redux?
--> getState() retrieves the current state from the Redux store.
+-> `getState()` retrieves the current state from the Redux store.
 
 What are middleware in Redux?
 -> Middleware allows you to extend Redux with custom logic, like handling asynchronous actions.
 
 What is combineReducers in Redux?
--> combineReducers merges multiple reducers into a single reducer function.
+-> `combineReducers` merges multiple reducers into a single reducer function.
 
 What is Redux Thunk?
 -> Redux Thunk is middleware that lets you write action creators that return functions instead of actions.
@@ -35,7 +35,7 @@ What are selectors in Redux?
 -> Selectors are functions that extract and compute derived data from the Redux store.
 
 What is the Provider component in Redux?
--> Provider makes the Redux store available to all components in the app.
+-> `Provider` makes the Redux store available to all components in the app.
 
 What is mapStateToProps in Redux?
 -> `mapStateToProps` connects a component to specific parts of the Redux store's state.
