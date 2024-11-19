@@ -11,12 +11,16 @@
 8. [Best Practices](#best-practices)
 9. [References](#references)
 
+---
+
 <a name="introduction"></a>
-## Introduction
+## 1. Introduction
 Redux is a predictable state container for JavaScript applications. It helps manage the state in a way that is consistent and scalable, making it easier to develop complex applications with a clear flow of data.
 
+---
+
 <a name="state-structure"></a>
-## State Structure
+## 2. State Structure
 Redux state is typically organized into a single JavaScript object that contains various slices, each representing a different part of the application's data. Keeping the state normalized (flat structure) is crucial for performance and maintainability.
 
 Example State Structure:
