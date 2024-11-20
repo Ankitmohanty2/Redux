@@ -39,7 +39,7 @@ Example State Structure:
   },
   comments: {
     byPostId: {
-      "1": [ { id: 1, content: "Nice post!" } ]
+      "1": [{ id: 1, content: "Nice post!" }]
     }
   }
 }
