@@ -43,3 +43,6 @@ Example State Structure:
     }
   }
 }
+
+## 3. Actions
+Actions are plain JavaScript objects that describe an event or change that needs to happen in the state. They must include a type property, which indicates the action's intent. Additional properties can be added to pass relevant data to reducers
