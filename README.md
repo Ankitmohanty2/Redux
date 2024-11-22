@@ -46,5 +46,15 @@ Example State Structure:
 
 <a name="actions"></a>
 
-3. Actions
-Actions are plain JavaScript objects that describe an event or change that needs to happen in the state. They must include a type property, which indicates the action's intent. Additional properties can be added to pass relevant data to reducers.
+## 3. Actions
+Actions are plain JavaScript objects that describe events or changes that occur in the application. They provide a way to communicate with reducers and describe the type of change needed in the state.
+
+Structure of an Action
+An action must have a type property (a string) that indicates the action's intent. Additional properties (like payload) can be included to pass necessary data to the reducer.
+
+Example Action Structure:
+{
+  type: 'ACTION_TYPE',
+  payload: { key: 'value' } // Additional data (optional)
+}
+
