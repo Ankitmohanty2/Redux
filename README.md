@@ -48,3 +48,19 @@ Redux uses a centralized state stored as a single JavaScript object. To maintain
     }
   }
 }
+
+# Redux Actions
+
+Redux actions are plain JavaScript objects that describe events or changes that occur in the application. They are the only way to send data from your application to the Redux store.
+
+## 1. Defining Actions
+
+An action must have a `type` property that specifies the type of action being performed. Additionally, you can include a `payload` property to carry extra data necessary for the reducer to update the state.
+
+### Basic Action:
+```javascript
+// Example: Increment Counter Action
+const incrementAction = {
+  type: 'INCREMENT',
+};
+
