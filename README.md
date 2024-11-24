@@ -1,21 +1,4 @@
-const reduxExample = {
-  user: {
-    isAuthenticated: false,
-    userInfo: null,
-  },
-  posts: {
-    byId: {
-      "1": { id: 1, content: "Hello World" },
-      "2": { id: 2, content: "Redux is great!" }
-    },
-    allIds: [1, 2]
-  },
-  comments: {
-    byPostId: {
-      "1": [{ id: 1, content: "Nice post!" }]
-    }
-  },
-  documentation: `
+
 # Redux Overview
 
 Redux is a predictable state container for JavaScript applications. It helps you manage application state efficiently, ensuring that state transitions are predictable, making debugging and maintenance easier.
@@ -42,6 +25,24 @@ Redux revolves around three core principles:
 ## 2. State Structure
 
 The Redux state is a centralized object tree that represents the entire application. For scalability, divide the state into slices representing different parts of the app.
+const reduxExample = {
+  user: {
+    isAuthenticated: false,
+    userInfo: null,
+  },
+  posts: {
+    byId: {
+      "1": { id: 1, content: "Hello World" },
+      "2": { id: 2, content: "Redux is great!" }
+    },
+    allIds: [1, 2]
+  },
+  comments: {
+    byPostId: {
+      "1": [{ id: 1, content: "Nice post!" }]
+    }
+  },
+  documentation: `
 
 ## 3. Actions
 
