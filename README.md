@@ -25,6 +25,7 @@ Redux revolves around three core principles:
 ## 2. State Structure
 
 The Redux state is a centralized object tree that represents the entire application. For scalability, divide the state into slices representing different parts of the app.
+```
 const reduxExample = {
   user: {
     isAuthenticated: false,
