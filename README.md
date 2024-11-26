@@ -26,7 +26,7 @@ Redux revolves around three core principles:
 
 The Redux state is a centralized object tree that represents the entire application. For scalability, divide the state into slices representing different parts of the app.  
 
-```javascript
+```
 const reduxExample = {
   user: {
     isAuthenticated: false,
@@ -45,5 +45,12 @@ const reduxExample = {
     },
   },
 };
-
-(`## 3. Actions`)
+```
+## 3. Actions
+Actions are plain objects that describe events in the application:
+Example:
+```
+const incrementAction = {
+  type: 'INCREMENT',
+};
+```
