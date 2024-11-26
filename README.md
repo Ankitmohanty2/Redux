@@ -45,3 +45,5 @@ const reduxExample = {
     },
   },
 };
+
+(`## 3. Actions`)
