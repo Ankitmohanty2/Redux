@@ -109,4 +109,4 @@ store.dispatch({ type: 'DECREMENT' });
 - [Redux Documentation](https://redux.js.org/)
 - [Redux Toolkit](https://redux-toolkit.js.org/)
   `
-};
+}
