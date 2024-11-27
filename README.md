@@ -69,3 +69,5 @@ const counterReducer = (state = { count: 0 }, action) => {
   }
 };
 ```
+### 5. Middleware
+Middleware extends Redux functionality by intercepting actions before they reach the reducer.
