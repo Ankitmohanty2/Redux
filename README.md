@@ -54,3 +54,5 @@ const incrementAction = {
   type: 'INCREMENT',
 };
 ```
+### 4. Reducers
+Reducers are pure functions that specify how the state changes in response to actions:
