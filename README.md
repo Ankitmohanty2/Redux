@@ -71,3 +71,17 @@ const counterReducer = (state = { count: 0 }, action) => {
 ```
 ### 5. Middleware
 Middleware in Redux intercepts actions dispatched to the store and allows additional processing, like logging or making asynchronous API calls. Popular middleware includes Redux Thunk and Redux Saga.
+
+Example using Redux Thunk:
+```
+const fetchPosts = () => async (dispatch) => {
+  dispatch({ type: 'FETCH_POSTS_REQUEST' });
+  try {
+    const response = await fetch('/api/posts');
+    const data = await response.json();
+    dispatch({ type: 'FETCH_POSTS_SUCCESS', payload: data });
+  } catch (error) {
+    dispatch({ type: 'FETCH_POSTS_FAILURE', payload: error });
+  }
+};
+```
