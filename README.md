@@ -70,4 +70,4 @@ const counterReducer = (state = { count: 0 }, action) => {
 };
 ```
 ### 5. Middleware
-Middleware extends Redux functionality by intercepting actions before they reach the reducer.
+Middleware in Redux intercepts actions dispatched to the store and allows additional processing, like logging or making asynchronous API calls. Popular middleware includes Redux Thunk and Redux Saga.
