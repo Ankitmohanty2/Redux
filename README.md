@@ -89,4 +89,9 @@ const fetchPosts = () => async (dispatch) => {
 Create a Redux store to hold the application state:
 
 ```
+import { createStore, applyMiddleware } from 'redux';
+import counterReducer from './reducers';
+import loggerMiddleware from './middleware';
 
+const store = createStore(counterReducer, applyMiddleware(loggerMiddleware));
+```
