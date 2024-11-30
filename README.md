@@ -85,5 +85,5 @@ const fetchPosts = () => async (dispatch) => {
   }
 };
 ```
-6. Store Configuration
+### 6. Store Configuration
 Create a Redux store to hold the application state:
