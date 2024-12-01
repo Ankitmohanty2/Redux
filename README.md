@@ -97,3 +97,8 @@ const store = createStore(counterReducer, applyMiddleware(loggerMiddleware));
 ```
 ### 7. Usage Example
 Dispatch actions to update the state:
+
+```
+store.dispatch({ type: 'INCREMENT' });
+store.dispatch({ type: 'DECREMENT' });
+```
