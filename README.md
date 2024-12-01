@@ -95,3 +95,5 @@ import loggerMiddleware from './middleware';
 
 const store = createStore(counterReducer, applyMiddleware(loggerMiddleware));
 ```
+7. Usage Example
+Dispatch actions to update the state:
